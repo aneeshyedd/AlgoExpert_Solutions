@@ -34,7 +34,7 @@ public class RemoveDuplicates {
 	public static void main(String[] args)
 	{
 		//Testing with sample input
-		
+		//This program implements removing duplicate values from a singly linked list
 		RemoveDuplicates obj = new RemoveDuplicates();
 		LinkedList list = new LinkedList(1);
 		list.next = new LinkedList(1);
