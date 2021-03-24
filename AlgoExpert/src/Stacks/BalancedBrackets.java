@@ -29,10 +29,7 @@ public class BalancedBrackets {
 			i++;
 		}
 		
-		if(s.isEmpty())
-			return true;
-		else
-			return false;
+		return s.size() == 0;
 	}
 	
 	public static void main(String[] args)
